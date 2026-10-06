@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AURA — Power BI Service</title>
+<style>body{margin:0;background:#F3F7F9;color:#294858;font:16px/1.6 "Segoe UI",Arial,sans-serif}main{max-width:1320px;margin:auto;padding:24px}a{color:#168D8D}h1{font-size:28px}#message{padding:28px;background:white;border:1px solid #DFE9EE;border-radius:12px}iframe{border:0;background:white;width:100%;height:78vh;min-height:500px}button{font:inherit}</style></head>
+<body><main><a href="index.html">Вернуться к интерактивному дашборду</a><h1>AURA — отчёт Power BI</h1><div id="message"><p>Отчёт Power BI Service ещё не подключён.</p><p>Интерактивная браузерная версия уже доступна по ссылке выше. Для подключения Service укажите публичную ссылку в powerbi-config.js.</p></div><iframe id="report" title="Интерактивный отчёт AURA в Power BI" allowfullscreen hidden></iframe></main>
+<script src="powerbi-config.js"></script><script>
+const source=window.POWERBI_EMBED_URL;
+if(typeof source==='string' && source.trim()) { try {const url=new URL(source);if(url.protocol==='https:'&&url.hostname==='app.powerbi.com'&&url.pathname==='/view'&&url.searchParams.get('r')){document.getElementById('message').hidden=true;const report=document.getElementById('report');report.src=url.href;report.hidden=false;}} catch (_) {document.getElementById('message').textContent='Проверьте адрес отчёта Power BI Service в powerbi-config.js.';}}
+</script></body></html>
