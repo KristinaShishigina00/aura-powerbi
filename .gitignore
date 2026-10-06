@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+**/.pbi/
+**/.pbi/cache*.abf
+**/localSettings.json
+**/__pycache__/
+*.pyc
+.venv/
+.env
+*.log
