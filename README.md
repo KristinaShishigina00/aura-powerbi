@@ -6,8 +6,6 @@
 
 **[Открыть интерактивный дашборд](https://kristinashishigina00.github.io/aura-powerbi/)** · [Скачать Power BI](powerbi/Aura_Business_Analytics.pbix?raw=true) · [Аналитический отчёт PDF](reports/Aura_Analytics_Report.pdf) · [Выводы и гипотезы](docs/analytics-report.md)
 
-Онлайн-ссылка станет доступна после включения GitHub Pages. [Инструкция публикации](docs/publishing.md) занимает один этап настройки в GitHub. До публикации интерактивный отчёт можно открыть локально: скачайте репозиторий и откройте `site/index.html`.
-
 [![Обзор продукта в Power BI](assets/01-overview.png)](https://kristinashishigina00.github.io/aura-powerbi/)
 
 ## Бизнес-задача
