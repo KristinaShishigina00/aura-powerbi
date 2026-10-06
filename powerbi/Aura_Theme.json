@@ -1,0 +1,95 @@
+{
+  "name": "Aura · Русский отчёт",
+  "dataColors": [
+    "#537ED1",
+    "#168D8D",
+    "#A58DC2",
+    "#D68D67",
+    "#7B99AE",
+    "#81BDB2"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#294858",
+  "tableAccent": "#168D8D",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 28,
+      "color": "#173B50"
+    },
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 14,
+      "color": "#294858"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#294858"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#657D8B"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 12,
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 12,
+            "showAxisTitle": false
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "textSize": 12,
+            "rowPadding": 3
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontSize": 12,
+            "wordWrap": true,
+            "backColor": {
+              "solid": {
+                "color": "#EDF4F7"
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": "#294858"
+              }
+            }
+          }
+        ],
+        "values": [
+          {
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#294858"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

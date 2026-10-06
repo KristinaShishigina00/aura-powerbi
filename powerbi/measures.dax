@@ -1,0 +1,85 @@
+// Меры исходной семантической модели Aura. Запрос для DAX Query View.
+DEFINE
+    MEASURE 'Users'[Total Users] =
+        CALCULATE(COUNTROWS(Users), TREATAS(VALUES('Date'[date]), Users[registration_day]))
+
+    MEASURE 'Users'[Active Users] =
+        CALCULATE(DISTINCTCOUNT(Interactions[user_id]), Interactions[interaction_type] = "viewed", TREATAS(VALUES('Date'[date]), Interactions[event_day]))
+
+    MEASURE 'Users'[Total Recommendations] =
+        CALCULATE(COUNTROWS(Recommendations), TREATAS(VALUES('Date'[date]), Recommendations[recommendation_day]))
+
+    MEASURE 'Users'[Viewed Recommendations] =
+        CALCULATE(COUNTROWS(Recommendations), Recommendations[viewed] = 1, TREATAS(VALUES('Date'[date]), Recommendations[recommendation_day]))
+
+    MEASURE 'Users'[Accepted Recommendations] =
+        CALCULATE(COUNTROWS(Recommendations), Recommendations[accepted] = 1, TREATAS(VALUES('Date'[date]), Recommendations[recommendation_day]))
+
+    MEASURE 'Users'[Recommendation View Rate] =
+        DIVIDE([Viewed Recommendations], [Total Recommendations])
+
+    MEASURE 'Users'[Recommendation Acceptance Rate] =
+        DIVIDE([Accepted Recommendations], [Total Recommendations])
+
+    MEASURE 'Users'[Acceptance After View] =
+        DIVIDE([Accepted Recommendations], [Viewed Recommendations])
+
+    MEASURE 'Users'[Completed Profile Users] =
+        CALCULATE(COUNTROWS(Users), Users[profile_completed] = 1, TREATAS(VALUES('Date'[date]), Users[registration_day]))
+
+    MEASURE 'Users'[Profile Completion Rate] =
+        DIVIDE([Completed Profile Users], [Total Users])
+
+    MEASURE 'Users'[Routine Users] =
+        CALCULATE(COUNTROWS(Users), Users[has_routine] = 1, TREATAS(VALUES('Date'[date]), Users[registration_day]))
+
+    MEASURE 'Users'[Routine Creation Rate] =
+        DIVIDE([Routine Users], [Total Users])
+
+    MEASURE 'Users'[Average Recommendation Score] =
+        CALCULATE(AVERAGE(Recommendations[compatibility_percent]), TREATAS(VALUES('Date'[date]), Recommendations[recommendation_day]))
+
+    MEASURE 'Users'[Existing Users] =
+        CALCULATE(COUNTROWS(Users), Users[registration_day] <= MAX('Date'[date]))
+
+    MEASURE 'Users'[Average Recommendations per User] =
+        DIVIDE([Total Recommendations], [Existing Users])
+
+    MEASURE 'Users'[Recommendation Recipients] =
+        CALCULATE(DISTINCTCOUNT(Recommendations[user_id]), TREATAS(VALUES('Date'[date]), Recommendations[recommendation_day]))
+
+    MEASURE 'Users'[Average Recommendations per Recipient] =
+        DIVIDE([Total Recommendations], [Recommendation Recipients])
+
+    MEASURE 'Users'[Funnel Users] =
+        VAR StageNumber = SELECTEDVALUE(FunnelStages[stage_id])
+        RETURN CALCULATE(COUNTROWS(Users), Users[funnel_level] >= StageNumber, TREATAS(VALUES('Date'[date]), Users[registration_day]))
+
+    MEASURE 'Users'[Previous Stage Users] =
+        VAR StageNumber = SELECTEDVALUE(FunnelStages[stage_id])
+        RETURN IF(StageNumber > 1, CALCULATE([Funnel Users], REMOVEFILTERS(FunnelStages), FunnelStages[stage_id] = StageNumber - 1))
+
+    MEASURE 'Users'[Conversion Rate] =
+        DIVIDE([Funnel Users], [Previous Stage Users])
+
+    MEASURE 'Users'[Drop Off Rate] =
+        VAR Conversion = [Conversion Rate]
+        RETURN IF(NOT ISBLANK(Conversion), 1 - Conversion)
+
+    MEASURE 'Users'[Overall Conversion] =
+        DIVIDE([Funnel Users], [Total Users])
+
+    MEASURE 'Users'[Catalog Products] =
+        COUNTROWS(Products)
+
+    MEASURE 'Users'[Average Price] =
+        AVERAGE(Products[price])
+
+EVALUATE
+ROW(
+    "Пользователи", [Total Users],
+    "Рекомендации", [Total Recommendations],
+    "Добавлено", [Accepted Recommendations],
+    "Доля добавлений", [Recommendation Acceptance Rate],
+    "Уход сохранён", [Routine Creation Rate]
+)
