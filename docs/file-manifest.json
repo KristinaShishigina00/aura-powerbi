@@ -1,0 +1,189 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 202,
+      "sha256": "6efb1115e69285d1cb018db0868b3ca9c71536668e1051f593d62ab5e672bd6e"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "bytes": 383,
+      "sha256": "ea25cbcbf99260ee2a7f43eb480805bfd8292c52ada5e5723df95ae25db2f9bc"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 695,
+      "sha256": "33b7a747b76bc7bec40d82b3ce9078878380edec83d449b6673ef6f58448fec3"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 120,
+      "sha256": "3aabdedc5b43fd402497da6bbc395b621e6043fada17ef7d36904483ac16cdcb"
+    },
+    {
+      "path": "assets/01-overview.png",
+      "bytes": 427808,
+      "sha256": "0fe3c40dc5efc429592c8bb7b410e7fd43c1f3407d737569398f320e57a0da29"
+    },
+    {
+      "path": "assets/02-users.png",
+      "bytes": 444791,
+      "sha256": "057d7239041f9fe14b6335666178a9601da626118bd93312a7993415bbf2b734"
+    },
+    {
+      "path": "assets/03-recommendations.png",
+      "bytes": 425487,
+      "sha256": "8964bab5a09bc1af370f6a17e9031e3a2c6865fae36e749c94a94508f2d94e59"
+    },
+    {
+      "path": "assets/04-catalog.png",
+      "bytes": 528303,
+      "sha256": "c131b4e058f3dff05d9feb37df747bbd441b4cdcb14c17797fe2d16272ee106c"
+    },
+    {
+      "path": "assets/05-funnel.png",
+      "bytes": 489873,
+      "sha256": "e46ddeef820ddcb0a86df3da2c0330d736ec0a8457edaafb1b735f718d59edb4"
+    },
+    {
+      "path": "data/Date.csv",
+      "bytes": 8215,
+      "sha256": "7c899b5302df65bf0306c0372777326b5e6bb74df4b652118e3dcb2667f628d2"
+    },
+    {
+      "path": "data/FunnelStages.csv",
+      "bytes": 137,
+      "sha256": "64b4255c01e92bf626910a170c48a3fb4ae370af496d43280e53341e24dba774"
+    },
+    {
+      "path": "data/Interactions.csv",
+      "bytes": 11471965,
+      "sha256": "45eb50ad66943dabad45dcbd6c3e02a8a4babc09118c63873aa22ead31d0d208"
+    },
+    {
+      "path": "data/Products.csv",
+      "bytes": 16832,
+      "sha256": "8f660ab6fa4faf856338913882e0bf3f16c05aceccaf388adc87b300a70aa5ec"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 2377,
+      "sha256": "9daec775ec03cd8f27c3bd3b96ce7aefc650c28991fe4b0ce3b913fc276fc368"
+    },
+    {
+      "path": "data/Recommendations.csv",
+      "bytes": 10095124,
+      "sha256": "723f1d296a78c98870551049760502eeea848165e292d10b73be5ea51ada1fa3"
+    },
+    {
+      "path": "data/Routine.csv",
+      "bytes": 965334,
+      "sha256": "71edd76356d8d2acb6beceb41af9f19c35852edc0bee5dce36f13c973e9e5f62"
+    },
+    {
+      "path": "data/Users.csv",
+      "bytes": 1830717,
+      "sha256": "daa00bdb2517de26f9f225f04bd62b765c69114e9862146c81f6dd15a1b52f40"
+    },
+    {
+      "path": "docs/analytics-report.md",
+      "bytes": 7225,
+      "sha256": "2d89d46c6c5547d9ebfa6a131791bd1ac6f8522255e9986788740b0eff2ebb26"
+    },
+    {
+      "path": "docs/control-values.json",
+      "bytes": 1553,
+      "sha256": "3040b8e2f5ed6425ebc2b8393fb1d8227ac692d1d1cb0d52c3dc4b1e3f5d2dfb"
+    },
+    {
+      "path": "docs/data-model.md",
+      "bytes": 3907,
+      "sha256": "4a2917ababc2891baee9740db956715efa758ca77a69e4d0c44f4c8623666a8d"
+    },
+    {
+      "path": "docs/dax-measures.md",
+      "bytes": 4025,
+      "sha256": "000a4b6338ffd03cc08c5e73d756950f1c82f8e5d661deb0fa1ec70f90392583"
+    },
+    {
+      "path": "docs/metrics.md",
+      "bytes": 5402,
+      "sha256": "88ef413dfd53fcc2074160868e6cbb2017ea299b08422ac63fd60c70abd37148"
+    },
+    {
+      "path": "docs/publishing.md",
+      "bytes": 4449,
+      "sha256": "3eafebc175e21fb73e0d265607a5898e09eb3a67dd2f2809800773a15f5bf261"
+    },
+    {
+      "path": "docs/source-notes.md",
+      "bytes": 1702,
+      "sha256": "e24bc83f60063905a1a2700a5a648851e36de58fac80953a260ebc69a6fe364d"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 4253,
+      "sha256": "abcbe381a0160854112d7239170bac48be0514f2c1f8735c2a10d396c3f19f30"
+    },
+    {
+      "path": "powerbi/Aura_Business_Analytics.pbix",
+      "bytes": 12744817,
+      "sha256": "568f196101546e06dcb24b8f8a8855de7e230dc4ee9e4d77c51dd603dce69f10"
+    },
+    {
+      "path": "powerbi/Aura_PBIP_Source.zip",
+      "bytes": 5255459,
+      "sha256": "feb16820e03bec911382b781441900ef7b5b43e3bdafd07f3a4eb876f2fbaf6a"
+    },
+    {
+      "path": "powerbi/Aura_Theme.json",
+      "bytes": 1858,
+      "sha256": "80bc0ff0aa5691d8dd71a0dbd450d59178362bd1e9c09c2d01a5f0b6f6bc5f25"
+    },
+    {
+      "path": "powerbi/measures.dax",
+      "bytes": 3918,
+      "sha256": "277d75de6d706dab41a86b7dc032c30c5d8e8d5a60a75d9049a889a08c395a44"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10466,
+      "sha256": "878653687f688d135f2f9aa8af4aa997738415413f30d759ff0fb5c44932c419"
+    },
+    {
+      "path": "reports/Aura_Analytics_Report.pdf",
+      "bytes": 2851944,
+      "sha256": "6cd03bad3acebfa3a6c569a317868252252c72c6cb3867b148642031a6f8aa2b"
+    },
+    {
+      "path": "scripts/validate_package.py",
+      "bytes": 7039,
+      "sha256": "c942096f28ea9c650eeafdc79afa0759ae670d8caf9266e1ba64b6e55d275196"
+    },
+    {
+      "path": "site/.nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 4387488,
+      "sha256": "2fc1e0a12b5b917526511f33832468c2bc1eab179451d0359fce3e191de11ef7"
+    },
+    {
+      "path": "site/powerbi-config.js",
+      "bytes": 135,
+      "sha256": "5f3a606dc1e4f4aea5b5f0cc7ef58a93764fbd18bffe854228fb46036841468a"
+    },
+    {
+      "path": "site/powerbi.html",
+      "bytes": 1711,
+      "sha256": "54a22b1cdbc7649e4832df8200c57a617ac47b5b27832ff4a0317f25d0007116"
+    },
+    {
+      "path": "site/report.pdf",
+      "bytes": 2851944,
+      "sha256": "6cd03bad3acebfa3a6c569a317868252252c72c6cb3867b148642031a6f8aa2b"
+    }
+  ]
+}
