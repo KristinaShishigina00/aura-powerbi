@@ -1,0 +1,121 @@
+﻿product_id,product_name,brand,category,price,skin_type,skin_state,active,routine_step,data_origin
+1,Demo Очищение 001,Demo Brand 01,Очищение,371.0,Очень сухая,Сухость,1,cleansing,Synthetic / Demo Data
+2,Demo Очищение 002,Demo Brand 02,Очищение,1572.0,Жирная,Сухость,1,cleansing,Synthetic / Demo Data
+3,Demo Очищение 003,Demo Brand 03,Очищение,941.0,Очень жирная,Обезвоженность,1,cleansing,Synthetic / Demo Data
+4,Demo Очищение 004,Demo Brand 04,Очищение,339.0,Очень жирная,Пигментация,1,cleansing,Synthetic / Demo Data
+5,Demo Очищение 005,Demo Brand 05,Очищение,705.0,Сухая,Сухость,1,cleansing,Synthetic / Demo Data
+6,Demo Очищение 006,Demo Brand 06,Очищение,869.0,Сухая,Сухость,1,cleansing,Synthetic / Demo Data
+7,Demo Очищение 007,Demo Brand 07,Очищение,2123.0,Очень жирная,Сухость,1,cleansing,Synthetic / Demo Data
+8,Demo Очищение 008,Demo Brand 08,Очищение,1166.0,Сухая,Сухость,1,cleansing,Synthetic / Demo Data
+9,Demo Очищение 009,Demo Brand 09,Очищение,619.0,Жирная,Обезвоженность,1,cleansing,Synthetic / Demo Data
+10,Demo Очищение 010,Demo Brand 10,Очищение,842.0,Нормальная,Сухость,1,cleansing,Synthetic / Demo Data
+11,Demo Очищение 011,Demo Brand 11,Очищение,742.0,Нормальная,Акне,1,cleansing,Synthetic / Demo Data
+12,Demo Очищение 012,Demo Brand 12,Очищение,1333.0,Комбинированная,Покраснения,1,cleansing,Synthetic / Demo Data
+13,Demo Очищение 013,Demo Brand 01,Очищение,1038.0,Очень жирная,Сухость,1,cleansing,Synthetic / Demo Data
+14,Demo Очищение 014,Demo Brand 02,Очищение,485.0,Все типы,Обезвоженность,1,cleansing,Synthetic / Demo Data
+15,Demo Очищение 015,Demo Brand 03,Очищение,1868.0,Все типы,Акне,1,cleansing,Synthetic / Demo Data
+16,Demo Очищение 016,Demo Brand 04,Очищение,1106.0,Сухая,Обезвоженность,1,cleansing,Synthetic / Demo Data
+17,Demo Очищение 017,Demo Brand 05,Очищение,1460.0,Комбинированная,Пигментация,1,cleansing,Synthetic / Demo Data
+18,Demo Очищение 018,Demo Brand 06,Очищение,794.0,Нормальная,Акне,1,cleansing,Synthetic / Demo Data
+19,Demo Очищение 019,Demo Brand 07,Очищение,514.0,Жирная,Ничего не беспокоит,1,cleansing,Synthetic / Demo Data
+20,Demo Очищение 020,Demo Brand 08,Очищение,1046.0,Нормальная,Ничего не беспокоит,1,cleansing,Synthetic / Demo Data
+21,Demo Очищение 021,Demo Brand 09,Очищение,897.0,Нормальная,Акне,1,cleansing,Synthetic / Demo Data
+22,Demo Очищение 022,Demo Brand 10,Очищение,1881.0,Все типы,Пигментация,1,cleansing,Synthetic / Demo Data
+23,Demo Очищение 023,Demo Brand 11,Очищение,490.0,Комбинированная,Пигментация,0,cleansing,Synthetic / Demo Data
+24,Demo Очищение 024,Demo Brand 12,Очищение,1746.0,Очень сухая,Обезвоженность,1,cleansing,Synthetic / Demo Data
+25,Demo Тонизация 025,Demo Brand 01,Тонизация,249.0,Комбинированная,Покраснения,1,toner,Synthetic / Demo Data
+26,Demo Тонизация 026,Demo Brand 02,Тонизация,1026.0,Нормальная,Пигментация,1,toner,Synthetic / Demo Data
+27,Demo Тонизация 027,Demo Brand 03,Тонизация,651.0,Комбинированная,Ничего не беспокоит,1,toner,Synthetic / Demo Data
+28,Demo Тонизация 028,Demo Brand 04,Тонизация,832.0,Нормальная,Сухость,1,toner,Synthetic / Demo Data
+29,Demo Тонизация 029,Demo Brand 05,Тонизация,1284.0,Комбинированная,Покраснения,1,toner,Synthetic / Demo Data
+30,Demo Тонизация 030,Demo Brand 06,Тонизация,745.0,Нормальная,Обезвоженность,1,toner,Synthetic / Demo Data
+31,Demo Тонизация 031,Demo Brand 07,Тонизация,729.0,Жирная,Акне,1,toner,Synthetic / Demo Data
+32,Demo Тонизация 032,Demo Brand 08,Тонизация,847.0,Сухая,Пигментация,1,toner,Synthetic / Demo Data
+33,Demo Тонизация 033,Demo Brand 09,Тонизация,746.0,Жирная,Обезвоженность,1,toner,Synthetic / Demo Data
+34,Demo Тонизация 034,Demo Brand 10,Тонизация,527.0,Очень сухая,Пигментация,1,toner,Synthetic / Demo Data
+35,Demo Тонизация 035,Demo Brand 11,Тонизация,350.0,Нормальная,Покраснения,1,toner,Synthetic / Demo Data
+36,Demo Тонизация 036,Demo Brand 12,Тонизация,1016.0,Очень сухая,Покраснения,1,toner,Synthetic / Demo Data
+37,Demo Тонизация 037,Demo Brand 01,Тонизация,826.0,Комбинированная,Обезвоженность,1,toner,Synthetic / Demo Data
+38,Demo Тонизация 038,Demo Brand 02,Тонизация,378.0,Очень сухая,Покраснения,1,toner,Synthetic / Demo Data
+39,Demo Тонизация 039,Demo Brand 03,Тонизация,918.0,Комбинированная,Акне,1,toner,Synthetic / Demo Data
+40,Demo Тонизация 040,Demo Brand 04,Тонизация,1047.0,Очень сухая,Сухость,1,toner,Synthetic / Demo Data
+41,Demo Тонизация 041,Demo Brand 05,Тонизация,315.0,Очень жирная,Сухость,1,toner,Synthetic / Demo Data
+42,Demo Тонизация 042,Demo Brand 06,Тонизация,1044.0,Комбинированная,Обезвоженность,1,toner,Synthetic / Demo Data
+43,Demo Тонизация 043,Demo Brand 07,Тонизация,824.0,Сухая,Пигментация,1,toner,Synthetic / Demo Data
+44,Demo Тонизация 044,Demo Brand 08,Тонизация,952.0,Жирная,Обезвоженность,1,toner,Synthetic / Demo Data
+45,Demo Тонизация 045,Demo Brand 09,Тонизация,988.0,Жирная,Обезвоженность,1,toner,Synthetic / Demo Data
+46,Demo Тонизация 046,Demo Brand 10,Тонизация,968.0,Очень сухая,Пигментация,1,toner,Synthetic / Demo Data
+47,Demo Тонизация 047,Demo Brand 11,Тонизация,722.0,Комбинированная,Пигментация,0,toner,Synthetic / Demo Data
+48,Demo Тонизация 048,Demo Brand 12,Тонизация,462.0,Жирная,Сухость,1,toner,Synthetic / Demo Data
+49,Demo Сыворотки 049,Demo Brand 01,Сыворотки,1583.0,Комбинированная,Сухость,1,active,Synthetic / Demo Data
+50,Demo Сыворотки 050,Demo Brand 02,Сыворотки,2272.0,Сухая,Обезвоженность,1,active,Synthetic / Demo Data
+51,Demo Сыворотки 051,Demo Brand 03,Сыворотки,721.0,Комбинированная,Пигментация,1,active,Synthetic / Demo Data
+52,Demo Сыворотки 052,Demo Brand 04,Сыворотки,2085.0,Все типы,Ничего не беспокоит,1,active,Synthetic / Demo Data
+53,Demo Сыворотки 053,Demo Brand 05,Сыворотки,1377.0,Комбинированная,Сухость,1,active,Synthetic / Demo Data
+54,Demo Сыворотки 054,Demo Brand 06,Сыворотки,2222.0,Все типы,Пигментация,1,active,Synthetic / Demo Data
+55,Demo Сыворотки 055,Demo Brand 07,Сыворотки,1774.0,Комбинированная,Обезвоженность,1,active,Synthetic / Demo Data
+56,Demo Сыворотки 056,Demo Brand 08,Сыворотки,649.0,Очень жирная,Акне,1,active,Synthetic / Demo Data
+57,Demo Сыворотки 057,Demo Brand 09,Сыворотки,682.0,Нормальная,Ничего не беспокоит,1,active,Synthetic / Demo Data
+58,Demo Сыворотки 058,Demo Brand 10,Сыворотки,2519.0,Очень сухая,Обезвоженность,1,active,Synthetic / Demo Data
+59,Demo Сыворотки 059,Demo Brand 11,Сыворотки,4770.0,Сухая,Сухость,1,active,Synthetic / Demo Data
+60,Demo Сыворотки 060,Demo Brand 12,Сыворотки,3067.0,Очень сухая,Сухость,1,active,Synthetic / Demo Data
+61,Demo Сыворотки 061,Demo Brand 01,Сыворотки,2448.0,Комбинированная,Покраснения,1,active,Synthetic / Demo Data
+62,Demo Сыворотки 062,Demo Brand 02,Сыворотки,1436.0,Нормальная,Пигментация,1,active,Synthetic / Demo Data
+63,Demo Сыворотки 063,Demo Brand 03,Сыворотки,1116.0,Очень жирная,Покраснения,1,active,Synthetic / Demo Data
+64,Demo Сыворотки 064,Demo Brand 04,Сыворотки,2177.0,Нормальная,Обезвоженность,1,active,Synthetic / Demo Data
+65,Demo Сыворотки 065,Demo Brand 05,Сыворотки,2046.0,Жирная,Обезвоженность,1,active,Synthetic / Demo Data
+66,Demo Сыворотки 066,Demo Brand 06,Сыворотки,1101.0,Все типы,Пигментация,1,active,Synthetic / Demo Data
+67,Demo Сыворотки 067,Demo Brand 07,Сыворотки,1515.0,Нормальная,Обезвоженность,1,active,Synthetic / Demo Data
+68,Demo Сыворотки 068,Demo Brand 08,Сыворотки,1551.0,Очень сухая,Обезвоженность,1,active,Synthetic / Demo Data
+69,Demo Сыворотки 069,Demo Brand 09,Сыворотки,824.0,Нормальная,Ничего не беспокоит,1,active,Synthetic / Demo Data
+70,Demo Сыворотки 070,Demo Brand 10,Сыворотки,4000.0,Все типы,Акне,1,active,Synthetic / Demo Data
+71,Demo Сыворотки 071,Demo Brand 11,Сыворотки,1415.0,Комбинированная,Сухость,0,active,Synthetic / Demo Data
+72,Demo Сыворотки 072,Demo Brand 12,Сыворотки,1909.0,Нормальная,Сухость,1,active,Synthetic / Demo Data
+73,Demo Увлажнение 073,Demo Brand 01,Увлажнение,1486.0,Все типы,Сухость,1,moisturizer,Synthetic / Demo Data
+74,Demo Увлажнение 074,Demo Brand 02,Увлажнение,2880.0,Очень сухая,Обезвоженность,1,moisturizer,Synthetic / Demo Data
+75,Demo Увлажнение 075,Demo Brand 03,Увлажнение,544.0,Нормальная,Пигментация,1,moisturizer,Synthetic / Demo Data
+76,Demo Увлажнение 076,Demo Brand 04,Увлажнение,1648.0,Все типы,Пигментация,1,moisturizer,Synthetic / Demo Data
+77,Demo Увлажнение 077,Demo Brand 05,Увлажнение,1011.0,Нормальная,Акне,1,moisturizer,Synthetic / Demo Data
+78,Demo Увлажнение 078,Demo Brand 06,Увлажнение,1615.0,Жирная,Обезвоженность,1,moisturizer,Synthetic / Demo Data
+79,Demo Увлажнение 079,Demo Brand 07,Увлажнение,844.0,Очень жирная,Акне,1,moisturizer,Synthetic / Demo Data
+80,Demo Увлажнение 080,Demo Brand 08,Увлажнение,1404.0,Сухая,Пигментация,1,moisturizer,Synthetic / Demo Data
+81,Demo Увлажнение 081,Demo Brand 09,Увлажнение,2760.0,Все типы,Пигментация,1,moisturizer,Synthetic / Demo Data
+82,Demo Увлажнение 082,Demo Brand 10,Увлажнение,631.0,Все типы,Ничего не беспокоит,1,moisturizer,Synthetic / Demo Data
+83,Demo Увлажнение 083,Demo Brand 11,Увлажнение,1593.0,Очень жирная,Сухость,1,moisturizer,Synthetic / Demo Data
+84,Demo Увлажнение 084,Demo Brand 12,Увлажнение,815.0,Очень жирная,Пигментация,1,moisturizer,Synthetic / Demo Data
+85,Demo Увлажнение 085,Demo Brand 01,Увлажнение,2427.0,Очень сухая,Пигментация,1,moisturizer,Synthetic / Demo Data
+86,Demo Увлажнение 086,Demo Brand 02,Увлажнение,2032.0,Комбинированная,Обезвоженность,1,moisturizer,Synthetic / Demo Data
+87,Demo Увлажнение 087,Demo Brand 03,Увлажнение,1028.0,Комбинированная,Обезвоженность,1,moisturizer,Synthetic / Demo Data
+88,Demo Увлажнение 088,Demo Brand 04,Увлажнение,1206.0,Комбинированная,Акне,1,moisturizer,Synthetic / Demo Data
+89,Demo Увлажнение 089,Demo Brand 05,Увлажнение,1450.0,Комбинированная,Акне,1,moisturizer,Synthetic / Demo Data
+90,Demo Увлажнение 090,Demo Brand 06,Увлажнение,670.0,Очень сухая,Пигментация,1,moisturizer,Synthetic / Demo Data
+91,Demo Увлажнение 091,Demo Brand 07,Увлажнение,845.0,Очень сухая,Обезвоженность,1,moisturizer,Synthetic / Demo Data
+92,Demo Увлажнение 092,Demo Brand 08,Увлажнение,489.0,Нормальная,Пигментация,1,moisturizer,Synthetic / Demo Data
+93,Demo Увлажнение 093,Demo Brand 09,Увлажнение,1696.0,Сухая,Ничего не беспокоит,1,moisturizer,Synthetic / Demo Data
+94,Demo Увлажнение 094,Demo Brand 10,Увлажнение,2235.0,Очень сухая,Акне,1,moisturizer,Synthetic / Demo Data
+95,Demo Увлажнение 095,Demo Brand 11,Увлажнение,1702.0,Очень жирная,Обезвоженность,0,moisturizer,Synthetic / Demo Data
+96,Demo Увлажнение 096,Demo Brand 12,Увлажнение,575.0,Жирная,Обезвоженность,1,moisturizer,Synthetic / Demo Data
+97,Demo SPF 097,Demo Brand 01,SPF,786.0,Жирная,Обезвоженность,1,spf,Synthetic / Demo Data
+98,Demo SPF 098,Demo Brand 02,SPF,2230.0,Нормальная,Обезвоженность,1,spf,Synthetic / Demo Data
+99,Demo SPF 099,Demo Brand 03,SPF,1392.0,Все типы,Сухость,1,spf,Synthetic / Demo Data
+100,Demo SPF 100,Demo Brand 04,SPF,499.0,Все типы,Ничего не беспокоит,1,spf,Synthetic / Demo Data
+101,Demo SPF 101,Demo Brand 05,SPF,904.0,Очень сухая,Сухость,1,spf,Synthetic / Demo Data
+102,Demo SPF 102,Demo Brand 06,SPF,1897.0,Жирная,Покраснения,1,spf,Synthetic / Demo Data
+103,Demo SPF 103,Demo Brand 07,SPF,2680.0,Нормальная,Пигментация,1,spf,Synthetic / Demo Data
+104,Demo SPF 104,Demo Brand 08,SPF,1911.0,Все типы,Акне,1,spf,Synthetic / Demo Data
+105,Demo SPF 105,Demo Brand 09,SPF,2906.0,Жирная,Обезвоженность,1,spf,Synthetic / Demo Data
+106,Demo SPF 106,Demo Brand 10,SPF,1354.0,Очень жирная,Обезвоженность,1,spf,Synthetic / Demo Data
+107,Demo SPF 107,Demo Brand 11,SPF,510.0,Все типы,Акне,1,spf,Synthetic / Demo Data
+108,Demo SPF 108,Demo Brand 12,SPF,2607.0,Очень жирная,Обезвоженность,1,spf,Synthetic / Demo Data
+109,Demo SPF 109,Demo Brand 01,SPF,661.0,Нормальная,Ничего не беспокоит,1,spf,Synthetic / Demo Data
+110,Demo SPF 110,Demo Brand 02,SPF,1543.0,Все типы,Покраснения,1,spf,Synthetic / Demo Data
+111,Demo SPF 111,Demo Brand 03,SPF,754.0,Все типы,Покраснения,1,spf,Synthetic / Demo Data
+112,Demo SPF 112,Demo Brand 04,SPF,1278.0,Очень жирная,Акне,1,spf,Synthetic / Demo Data
+113,Demo SPF 113,Demo Brand 05,SPF,1628.0,Очень жирная,Сухость,1,spf,Synthetic / Demo Data
+114,Demo SPF 114,Demo Brand 06,SPF,1554.0,Сухая,Обезвоженность,1,spf,Synthetic / Demo Data
+115,Demo SPF 115,Demo Brand 07,SPF,1766.0,Жирная,Пигментация,1,spf,Synthetic / Demo Data
+116,Demo SPF 116,Demo Brand 08,SPF,2349.0,Очень сухая,Покраснения,1,spf,Synthetic / Demo Data
+117,Demo SPF 117,Demo Brand 09,SPF,703.0,Нормальная,Обезвоженность,1,spf,Synthetic / Demo Data
+118,Demo SPF 118,Demo Brand 10,SPF,1016.0,Нормальная,Пигментация,1,spf,Synthetic / Demo Data
+119,Demo SPF 119,Demo Brand 11,SPF,1434.0,Нормальная,Покраснения,0,spf,Synthetic / Demo Data
+120,Demo SPF 120,Demo Brand 12,SPF,720.0,Сухая,Ничего не беспокоит,1,spf,Synthetic / Demo Data
